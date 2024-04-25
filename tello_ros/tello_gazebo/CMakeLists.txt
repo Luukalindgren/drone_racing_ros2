@@ -82,6 +82,10 @@ install(
 ## Install Python scripts
 install(
   PROGRAMS src/inject_entity.py
+  PROGRAMS src/takeoff_client_node.py
+  PROGRAMS src/object_detection_node.py
+  PROGRAMS src/gate_navigation_node.py
+  PROGRAMS src/tello_control_client_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

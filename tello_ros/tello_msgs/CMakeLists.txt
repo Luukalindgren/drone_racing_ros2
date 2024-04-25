@@ -34,6 +34,7 @@ rosidl_generate_interfaces(
   ${PROJECT_NAME}
   "msg/FlightData.msg"
   "msg/TelloResponse.msg"
+  "msg/GateData.msg"
   "srv/TelloAction.srv"
   DEPENDENCIES std_msgs
 )
