@@ -3,6 +3,24 @@
 Luuka Lindgren, Teemu Mäkinen, Lauri Jussinmäki***
 --------------------------------------------------
 
+### To run the project, follow the installation and build instructrions below until you get to the 'run teleop simulation' step. Then launch the `project.py` launch file with this command:
+
+```
+    ros2 launch tello_gazebo project.py
+```
+
+### Then after gazebo has started and drone has lifted itself to flying state, open another terminal and run the `gate_navigation_node.py` file (remember to source the new opened terminal):
+
+```
+    ros2 run tello_gazebo gate_navigation_node.py
+```
+
+### Note:
+If gazebo launches, but object detection window wont show up, you might need to open third terminal and echo the `/drone1/image_raw` topic. This was the case when running this with M1 MacBook via VMware Fusion virtual machine.
+
+--------------------------------------------------
+
+
 # `drone_racing_ros2`
 ## Running a Tello simulation in [Gazebo](http://gazebosim.org/)
 
