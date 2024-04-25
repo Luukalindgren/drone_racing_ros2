@@ -1,3 +1,8 @@
+--------------------------------------------------
+***Made as a group project for UTU's course. Team members:
+Luuka Lindgren, Teemu Mäkinen, Lauri Jussinmäki***
+--------------------------------------------------
+
 # `drone_racing_ros2`
 ## Running a Tello simulation in [Gazebo](http://gazebosim.org/)
 
